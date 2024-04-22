@@ -1,4 +1,4 @@
-import { defineGkdApp } from '@gkd-kit/define';
+import {defineGkdApp} from '@gkd-kit/define';
 
 export default defineGkdApp({
   id: 'com.whale.whaleshop.ffojf',
@@ -36,13 +36,13 @@ export default defineGkdApp({
         },
         {
           key: 4,
-          name: '暂停广告',
+          name: '暂停广告1',
           activityIds: 'com.whale.whaleshop.ffojf.MainActivity',
           matches: ['ImageView[_id=10]'],
         },
         {
           key: 5,
-          name: '暂停广告',
+          name: '暂停广告2',
           activityIds:
             'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
           matches: ['TextView[_id=46][text="| 跳过"]'],
