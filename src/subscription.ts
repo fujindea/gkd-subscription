@@ -4,8 +4,8 @@ import categories from './categories';
 import globalGroups from './globalGroups';
 
 export default defineGkdSubscription({
-  id: 233,
-  name: 'Subscription',
+  id: 3245644,
+  name: 'MySubscription',
   version: 0,
   author: 'author',
   checkUpdateUrl: './gkd.version.json5',
