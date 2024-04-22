@@ -13,32 +13,32 @@ export default defineGkdApp({
                     name: '携程广告',
                     activityIds:
                         'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
-                    matches: 'Image[_id=70]',
+                    matches: 'TextView[text="反馈"] - View > Image',
                 },
                 {
                     key: 1,
                     name: '京东广告',
-                    matches: 'ImageView[_id=23]',
+                    matches: 'FrameLayout[id="android:id/content"] >4 FrameLayout + FrameLayout > ImageView',
                 },
                 {
                     key: 2,
                     name: '1688广告',
                     activityIds:
                         'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
-                    matches: 'Image[_id=38]',
+                    matches: 'TextView[text="反馈"] -2 View > Image',
                 },
                 {
                     key: 3,
                     name: '唯品会广告',
                     activityIds:
                         'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
-                    matches: 'Image[_id=37]',
+                    matches: 'TextView[text="反馈"] -4 View > Image',
                 },
                 {
                     key: 4,
                     name: '暂停广告1',
                     activityIds: 'com.whale.whaleshop.ffojf.MainActivity',
-                    matches: 'ImageView[_id=10]',
+                    matches: 'FrameLayout[id="android:id/content"] >6 FrameLayout > ImageView',
                 },
                 {
                     key: 5,
